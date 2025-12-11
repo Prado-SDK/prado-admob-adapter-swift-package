@@ -1,0 +1,299 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PradoAdmobAdapter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PradoSDK",
+        "printedName": "PradoSDK",
+        "declKind": "Import",
+        "moduleName": "PradoAdmobAdapter"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PradoAdMobSDKInfo",
+        "printedName": "PradoAdMobSDKInfo",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "getSdkVersion",
+            "printedName": "getSdkVersion()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17PradoAdmobAdapter0A12AdMobSDKInfoC13getSdkVersionSSyFZ",
+            "mangledName": "$s17PradoAdmobAdapter0A12AdMobSDKInfoC13getSdkVersionSSyFZ",
+            "moduleName": "PradoAdmobAdapter",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "networkSDKVersion",
+            "printedName": "networkSDKVersion()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17PradoAdmobAdapter0A12AdMobSDKInfoC17networkSDKVersionSSyFZ",
+            "mangledName": "$s17PradoAdmobAdapter0A12AdMobSDKInfoC17networkSDKVersionSSyFZ",
+            "moduleName": "PradoAdmobAdapter",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "adapterSDKVersion",
+            "printedName": "adapterSDKVersion()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17PradoAdmobAdapter0A12AdMobSDKInfoC17adapterSDKVersionSSyFZ",
+            "mangledName": "$s17PradoAdmobAdapter0A12AdMobSDKInfoC17adapterSDKVersionSSyFZ",
+            "moduleName": "PradoAdmobAdapter",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PradoAdMobSDKInfo",
+                "printedName": "PradoAdmobAdapter.PradoAdMobSDKInfo",
+                "usr": "c:@M@PradoAdmobAdapter@objc(cs)PradoAdMobSDKInfo"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@PradoAdmobAdapter@objc(cs)PradoAdMobSDKInfo(im)init",
+            "mangledName": "$s17PradoAdmobAdapter0A12AdMobSDKInfoCACycfc",
+            "moduleName": "PradoAdmobAdapter",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@PradoAdmobAdapter@objc(cs)PradoAdMobSDKInfo",
+        "mangledName": "$s17PradoAdmobAdapter0A12AdMobSDKInfoC",
+        "moduleName": "PradoAdmobAdapter",
+        "objc_name": "PradoAdMobSDKInfo",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PradoAdmobAdapter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "GoogleMobileAds",
+        "printedName": "GoogleMobileAds",
+        "declKind": "Import",
+        "moduleName": "PradoAdmobAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "PradoSDK",
+        "printedName": "PradoSDK",
+        "declKind": "Import",
+        "moduleName": "PradoAdmobAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "GoogleMobileAds",
+        "printedName": "GoogleMobileAds",
+        "declKind": "Import",
+        "moduleName": "PradoAdmobAdapter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PradoSDK",
+        "printedName": "PradoSDK",
+        "declKind": "Import",
+        "moduleName": "PradoAdmobAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "GoogleMobileAds",
+        "printedName": "GoogleMobileAds",
+        "declKind": "Import",
+        "moduleName": "PradoAdmobAdapter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PradoSDK",
+        "printedName": "PradoSDK",
+        "declKind": "Import",
+        "moduleName": "PradoAdmobAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "GoogleMobileAds",
+        "printedName": "GoogleMobileAds",
+        "declKind": "Import",
+        "moduleName": "PradoAdmobAdapter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PradoSDK",
+        "printedName": "PradoSDK",
+        "declKind": "Import",
+        "moduleName": "PradoAdmobAdapter"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/yarden\/Development\/iOS\/kpadplayer-ios-admob-adapter\/PradoAdmobAdapter\/PradoAdmobAdapter\/PradoBannerLifecycleHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 258,
+      "length": 27,
+      "value": "\"PradoAdmobAdapter.PradoBannerLifecycleHandler\""
+    },
+    {
+      "filePath": "\/Users\/yarden\/Development\/iOS\/kpadplayer-ios-admob-adapter\/PradoAdmobAdapter\/PradoAdmobAdapter\/PradoRewardedLifecycleHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 242,
+      "length": 29,
+      "value": "\"PradoAdmobAdapter.PradoRewardedLifecycleHandler\""
+    },
+    {
+      "filePath": "\/Users\/yarden\/Development\/iOS\/kpadplayer-ios-admob-adapter\/PradoAdmobAdapter\/PradoAdmobAdapter\/PradoInterstitialLifecycleHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 250,
+      "length": 33,
+      "value": "\"PradoAdmobAdapter.PradoInterstitialLifecycleHandler\""
+    },
+    {
+      "filePath": "\/Users\/yarden\/Development\/iOS\/kpadplayer-ios-admob-adapter\/PradoAdmobAdapter\/PradoAdmobAdapter\/PradoAdmobAdapter.swift",
+      "kind": "StringLiteral",
+      "offset": 6068,
+      "length": 19,
+      "value": "\"PradoAdmobAdapter.PradoSDKInitHandler\""
+    }
+  ]
+}
