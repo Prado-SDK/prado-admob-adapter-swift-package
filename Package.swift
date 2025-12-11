@@ -9,14 +9,21 @@ let package = Package(
     products: [
         .library(
             name: "PradoAdmobAdapter",
-            targets: ["PradoAdmobAdapter"]
+            targets: ["PradoAdmobAdapterTarget"]
         )
     ],
     dependencies: [
         // Dependency on core SDK
-        .package(url: "https://github.com/Prado-SDK/core-sdk-swift-package.git", from: "10.1.3")
+        .package(url: "https://github.com/Prado-SDK/prado-sdk-swift-package.git", from: "10.1.3")
     ],
     targets: [
+        .target(
+            name: "PradoAdmobAdapterTarget",
+            dependencies: [
+                .product(name: "PradoSDK", package: "prado-sdk-swift-package"),
+                "PradoAdmobAdapter"
+            ]
+        ),
         .binaryTarget(
             name: "PradoAdmobAdapter",
             path: "XCFramework/PradoAdmobAdapter.xcframework"

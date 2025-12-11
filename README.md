@@ -1,23 +1,6 @@
 # Prado AdMob Adapter SDK
 
-Prado iOS AdMob Adapter SDK for Swift Package Manager.
+## Introduction
 
-## Installation
-
-The [Swift Package Manager](https://swift.org/package-manager/) is a tool for managing the distribution of Swift code. It’s integrated with the Swift build system to automate the process of downloading, compiling, and linking dependencies.
-
-To integrate the Prado SDK into your Xcode project using Swift Package Manager:
-
-1. Add it to the `dependencies` of your `Package.swift`:
-
-```swift
-dependencies: [
-    .package(url: "https://github.com/Prado-SDK/admob-adapter-swift-package.git", "2.0.0"..<"2.1.0")
-]
-```
-
-2. Enable the `-ObjC` flag in Xcode: click on your project settings, go to **Build Settings**, search for **Other Linker Flags** and add `-ObjC`.
-
-Check out our integration [docs](https://github.com/Prado-SDK/prado-mobile-sdk) for more info on getting started with the Prado SDK.
-
-Note, this Swift package only includes the main Prado SDK.
+Prado AdMob Adapter SDK now officially supports installation via
+[Swift Package Manager](https://swift.org/package-manager/).
