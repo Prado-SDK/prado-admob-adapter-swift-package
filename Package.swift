@@ -4,7 +4,7 @@ import PackageDescription
 let package = Package(
     name: "PradoAdmobAdapter",
     platforms: [
-        .iOS(.v12) // or your minimum supported version
+        .iOS(.v14)
     ],
     products: [
         .library(
@@ -13,20 +13,21 @@ let package = Package(
         )
     ],
     dependencies: [
-        // Dependency on core SDK
-        .package(url: "https://github.com/Prado-SDK/prado-sdk-swift-package.git", from: "10.1.3")
-    ],
+            .package(url: "https://github.com/Prado-SDK/prado-sdk-swift-package.git", from: "10.1.5")
+        ],
     targets: [
+        
         .target(
-            name: "PradoAdmobAdapterTarget",
+            name: PradoAdmobAdapterTarget,
             dependencies: [
-                .product(name: "PradoSDK", package: "prado-sdk-swift-package"),
-                "PradoAdmobAdapter"
+                .product(name: PradoAdmobAdapter, package: prado-sdk-swift-package),
+                PradoAdmobAdapter
             ]
         ),
         .binaryTarget(
             name: "PradoAdmobAdapter",
-            path: "XCFramework/PradoAdmobAdapter.xcframework"
+            url: "https://github.com/Prado-SDK/prado-ios-frameworks/raw/refs/heads/main/mediation/admob/2.0.1/PradoAdmobAdapter.zip",
+            checksum: "5400e9af8675512ede4bf092afa9b4a524c85600029dff817f65788888118efb"
         )
     ]
 )
