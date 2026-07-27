@@ -13,15 +13,14 @@ let package = Package(
         )
     ],
     dependencies: [
-            .package(url: "https://github.com/Prado-SDK/prado-sdk-swift-package.git", from: "10.1.5")
-        ],
+        .package(url: "https://github.com/Prado-SDK/prado-sdk-swift-package.git", from: "10.1.5")
+    ],
     targets: [
-        
         .target(
-            name: PradoAdmobAdapterTarget,
+            name: "PradoAdmobAdapterTarget",
             dependencies: [
-                .product(name: PradoAdmobAdapter, package: prado-sdk-swift-package),
-                PradoAdmobAdapter
+                .product(name: "PradoSDK", package: "prado-sdk-swift-package"),
+                "PradoAdmobAdapter"
             ]
         ),
         .binaryTarget(

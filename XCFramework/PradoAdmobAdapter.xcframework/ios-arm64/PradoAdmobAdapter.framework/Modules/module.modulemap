@@ -1,6 +1,0 @@
-framework module PradoAdmobAdapter {
-  umbrella header "PradoAdmobAdapter.h"
-
-  export *
-  module * { export * }
-}
